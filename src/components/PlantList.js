@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import axios from "axios";
+
 import {getPlants} from "../services/plantsService"
 
 export default class PlantList extends Component {
