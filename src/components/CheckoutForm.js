@@ -20,9 +20,11 @@ const CheckoutForm = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // clearForm(initialValue);
     setShowSuccessMessage(true);
-    clearForm(initialValue);
   };
+
+  console.log(values.firstName);
 
   return (
     <>
